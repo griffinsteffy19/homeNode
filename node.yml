@@ -2,7 +2,8 @@ version: '3.7'
 
 networks:
   monitoring:
-    external: true
+    name: monitoring
+    driver: bridge
 
 services:
 
